@@ -63,7 +63,7 @@ export default function NavbarWithCTAButton() {
                <Navbar.Collapse className={`${scrolled ? 'md:pt-10' : 'md:pt-20'}`}>
                     <Navbar.Link href="#services"
                          className={
-                              `text-base md:text-xl ${
+                              `text-base md:text-xl xl:text-3xl ${
                                    scrolled ? 'md:text-gray-800 md:hover:text-gray-600' : 'md:text-white md:hover:text-yallow'
                               }`
                     }>
@@ -71,7 +71,7 @@ export default function NavbarWithCTAButton() {
                     </Navbar.Link>
                     <Navbar.Link href="#atelier"
                          className={
-                              `text-base md:text-xl ${
+                              `text-base md:text-xl xl:text-3xl ${
                                    scrolled ? 'md:text-gray-800 md:hover:text-gray-600' : 'md:text-white md:hover:text-yallow'
                               }`
                     }>
@@ -81,7 +81,7 @@ export default function NavbarWithCTAButton() {
                          <img id="logoImage" alt="Carrosserie Laurant Logo"
                               className={
                                    `xl:mx-10 -mt-10 ${
-                                        scrolled ? 'h-32 transition duration-300 fadeIn' : 'md:bg-gray-800 md:bg-opacity-0 md:h-32 xl:h-46'
+                                        scrolled ? 'h-32 transition duration-300 fadeIn' : 'md:bg-gray-800 md:bg-opacity-0 md:h-36 xl:h-52'
                                    }`
                               }
                               src={imageSrc}/>
@@ -89,7 +89,7 @@ export default function NavbarWithCTAButton() {
 
                     <Navbar.Link href="#apropos"
                          className={
-                              `text-base md:text-xl ${
+                              `text-base md:text-xl xl:text-3xl ${
                                    scrolled ? 'md:text-gray-800 md:hover:text-gray-600' : 'md:text-white md:hover:text-yallow'
                               }`
                     }>
@@ -97,7 +97,7 @@ export default function NavbarWithCTAButton() {
                     </Navbar.Link>
                     <Navbar.Link href="#contact"
                          className={
-                              `text-base md:text-xl ${
+                              `text-base md:text-xl xl:text-3xl ${
                                    scrolled ? 'md:text-gray-800 md:hover:text-gray-600' : 'md:text-white md:hover:text-yallow'
                               }`
                     }>

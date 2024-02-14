@@ -91,7 +91,7 @@ const Footer = () => {
                </div>
                <div className="bg-vGray-400">
                     <div className="flex justify-center space-x-3">
-                         <div className="container mx-5 md:mx-32 xl:mx-48 py-28">
+                         <div className="container mx-5 xl:mx-48 py-28">
                               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                                    <div>
                                         <h1 className="text-yallow text-xl uppercase font-bold">coordonnées</h1>
